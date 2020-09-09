@@ -1,0 +1,19 @@
+/*****************************
+ *    STILI GLOBALI
+ *****************************/    
+body, html {
+	min-height: 100%;
+}
+
+body, p {
+	margin: 0;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: helvetica, verdana, arial, sans-serif;
+}
