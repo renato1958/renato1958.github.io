@@ -58,3 +58,19 @@ body {
 	background-color: rgba(255, 255, 255, 1);
 }
 
+.slider-container {
+	width: 90%;
+	height: 50%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+}
+
+.label, .slider, .value { /* PROVVISORIO */
+	border: 1px solid red;
+	align-self: center;
+}
+
+.value {
+	text-align: right;
+}
