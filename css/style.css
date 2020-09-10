@@ -66,11 +66,46 @@ body {
 	grid-template-columns: 1fr 4fr 1fr;
 }
 
-.label, .slider, .value { /* PROVVISORIO */
-	border: 1px solid red;
+.label, .slider, .value {
 	align-self: center;
+}
+
+.label {
+	width: 45px;
+	height: 45px;
+	justify-self: left;
+	text-align: center;
+	line-height: 45px;
+        color: white;
+}
+
+.label, .value {
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 50%;
 }
 
 .value {
 	text-align: right;
+	height: 45px;
+	line-height: 45px;
+	padding-right: 5px;
+	border-radius: 15px;
+}
+
+.redlabel {
+	background-color: red;
+}
+
+.greenlabel {
+	background-color: green;
+}
+
+.bluelabel {
+	background-color: blue;
+}
+
+.alphalabel {
+	background-color: black;
 }
