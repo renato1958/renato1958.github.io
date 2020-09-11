@@ -45,7 +45,7 @@ greenSlider.addEventListener('input', () => {
 
 blueSlider.addEventListener('input', () => {
         blueValue = blueSlider.value;
-        blueValueDisp.innerHTML = `${bluetValue}`;
+        blueValueDisp.innerHTML = `${blueValue}`;
         overlay.style.backgroundColor = `rgba(${redValue}, ${greenValue}, ${blueValue}, ${alphaValue})`;
 }, false);
 
