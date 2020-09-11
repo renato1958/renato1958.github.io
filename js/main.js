@@ -4,6 +4,8 @@ const redSlider = document.querySelector('.redslider');
 const redValueDisp = document.querySelector('.redvalue');
 const greenSlider = document.querySelector('.greenslider');
 const greenValueDisp = document.querySelector('.greenvalue');
+const blueSlider = document.querySelector('.blueslider');
+const blueValueDisp = document.querySelector('.bluevalue');
 
 const overlay = document.querySelector('.overlay');
 
@@ -20,6 +22,8 @@ redSlider.value = `${redValue}`;
 redValueDisp.innerHTML = `${redValue}`;
 greenSlider.value = `${greenValue}`;
 greenValueDisp.innerHTML = `${greenValue}`;
+blueSlider.value = `${blueValue}`;
+blueValueDisp.innerHTML = `${blueValue}`;
 
 alphaSlider.addEventListener('input', () => {
 	alphaValue = alphaSlider.value;
@@ -39,4 +43,9 @@ greenSlider.addEventListener('input', () => {
         overlay.style.backgroundColor = `rgba(${redValue}, ${greenValue}, ${blueValue}, ${alphaValue})`;
 }, false);
 
+blueSlider.addEventListener('input', () => {
+        blueValue = blueSlider.value;
+        blueValueDisp.innerHTML = `${bluetValue}`;
+        overlay.style.backgroundColor = `rgba(${redValue}, ${greenValue}, ${blueValue}, ${alphaValue})`;
+}, false);
 
