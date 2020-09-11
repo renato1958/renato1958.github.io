@@ -9,9 +9,9 @@ const blueValueDisp = document.querySelector('.bluevalue');
 
 const overlay = document.querySelector('.overlay');
 
-let redValue = 0;
-let greenValue = 0;
-let blueValue = 0;
+let redValue = 255;
+let greenValue = 255;
+let blueValue = 255;
 let alphaValue = 1;
 
 overlay.style.backgroundColor = `rgba(${redValue}, ${greenValue}, ${blueValue}, ${alphaValue})`;
